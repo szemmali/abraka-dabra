@@ -7,7 +7,7 @@
 ##       Version:  1.0  ¯\_(ツ)_/¯
 ##    Repository:  https://github.com/szemmali/abraka-dabra.git
 ##	    	Task:  Install LAMP (MySQL8) 
-##          FILE:  Task-Install-LAMP-(MySQL8).sh
+##          FILE:  Task-Install-LAMP-(MySQL8).sh 
 ##   Description:  This script will Install and Configure LAMP (MySQL8)
 ##                 on RedHat/CentOS 7
 ##   Requirement:  --
