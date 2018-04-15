@@ -1,18 +1,18 @@
 #!/bin/bash
-##==================================================================================
+##====================================================================================
 ##		 Project:  abraka-dabra
 ##        AUTHOR:  Eng. Saddam ZEMMALI
 ##       CREATED:  15.04.2018 20:10:01
 ##      REVISION:  ---
 ##       Version:  1.0  ¯\_(ツ)_/¯
 ##    Repository:  https://github.com/szemmali/abraka-dabra.git
-##	    	Task:  INSTALL AND CONFIGURE Jenkins on REDHAT 7
+##	    	Task:  INSTALL AND CONFIGURE Jenkins on REDHAT 7 
 ##          FILE:  install_jenkins.sh
 ##   Description:  This script will Install and Configure Jenkins on RedHat/CentOS 7
 ##   Requirement:  --
 ##			Note:  -- 
 ##          BUGS:  ---
-##==================================================================================
+##====================================================================================
 
 echo "╔═══════════════════════════════════════╗"
 echo "║     Install and Enable EPEL REPO      ║"
