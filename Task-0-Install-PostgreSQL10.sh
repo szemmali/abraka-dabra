@@ -6,7 +6,7 @@
 ##      REVISION:  ---
 ##       Version:  1.0  ¯\_(ツ)_/¯
 ##    Repository:  https://github.com/szemmali/abraka-dabra.git
-##	    	Task:  Install PostgreSQL 10 + phpPgAdmin
+##	    	Task:  Install PostgreSQL 10 + phpPgAdmin 
 ##          FILE:  Task-0-Install-PostgreSQL10.sh
 ##   Description:  This script will Install and Configure PostgreSQL 10 + phpPgAdmin
 ##                 on RedHat/CentOS 7
