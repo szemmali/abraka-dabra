@@ -7,7 +7,7 @@
 ##       Version:  1.0  ¯\_(ツ)_/¯
 ##    Repository:  https://github.com/szemmali/abraka-dabra.git
 ##	    	Task:  Install SonarQUbe + PostgreSQL 9.6 
-##          FILE:  Task-3-Install-Sonar.sh
+##          FILE:  Task-3-Install-Sonar.sh 
 ##   Description:  This script will Install and Configure SonarQUbe + PostgreSQL
 ##                 on RedHat/CentOS 7
 ##   Requirement:  --
