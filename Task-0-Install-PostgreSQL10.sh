@@ -7,7 +7,7 @@
 ##       Version:  1.0  ¯\_(ツ)_/¯
 ##    Repository:  https://github.com/szemmali/abraka-dabra.git
 ##	    	Task:  Install PostgreSQL 10 + phpPgAdmin
-##          FILE:  install_jenkins.sh
+##          FILE:  Task-0-Install-PostgreSQL10.sh
 ##   Description:  This script will Install and Configure PostgreSQL 10 + phpPgAdmin
 ##                 on RedHat/CentOS 7
 ##   Requirement:  --
@@ -15,7 +15,7 @@
 ##          BUGS:  ---
 ##====================================================================================
 echo "╔═══════════════════════════════════════════════════════╗"
-echo "║ 	   PostgreSQL  User Guide [10]                      ║"
+echo "║ 	   PostgreSQL  User Guide [10]                    ║"
 echo "╚═══════════════════════════════════════════════════════╝"
 
 echo "Enable PostgreSQL Yum Repository"
@@ -42,7 +42,7 @@ sudo firewall-cmd --permanent --zone=public --add-port=5432/tcp
 
 
 echo "╔═══════════════════════════════════════════════════════╗"
-echo "║ 	    phpPgAdmin User Guide [10]                      ║"
+echo "║ 	    phpPgAdmin User Guide [10]                    ║"
 echo "╚═══════════════════════════════════════════════════════╝"
 sudo yum -y localinstall https://download.postgresql.org/pub/repos/yum/testing/10/redhat/rhel-7-x86_64/pgdg-redhat10-10-2.noarch.rpm
 

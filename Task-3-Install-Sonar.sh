@@ -7,7 +7,7 @@
 ##       Version:  1.0  ¯\_(ツ)_/¯
 ##    Repository:  https://github.com/szemmali/abraka-dabra.git
 ##	    	Task:  Install SonarQUbe + PostgreSQL 9.6 
-##          FILE:  install_jenkins.sh
+##          FILE:  Task-3-Install-Sonar.sh
 ##   Description:  This script will Install and Configure SonarQUbe + PostgreSQL
 ##                 on RedHat/CentOS 7
 ##   Requirement:  --
@@ -16,7 +16,7 @@
 ##=================================================================================
 
 echo "╔═══════════════════════════════════════════════════════╗"
-echo "║ 	   PostgreSQL  User Guide [9.6]                     ║"
+echo "║ 	   PostgreSQL  User Guide [9.6]                   ║"
 echo "╚═══════════════════════════════════════════════════════╝"
 
 wget https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7.3-x86_64/pgdg-redhat96-9.6-3.noarch.rpm
@@ -42,7 +42,7 @@ sudo -u postgres psql
 
 
 echo "╔═══════════════════════════════════════════════════════╗"
-echo "║ 	    SonarQUbe  User Guide                           ║"
+echo "║ 	    SonarQUbe  User Guide                         ║"
 echo "╚═══════════════════════════════════════════════════════╝"
 echo "Install Sonar repo"
 wget -O /etc/yum.repos.d/sonar.repo http://downloads.sourceforge.net/project/sonar-pkg/rpm/sonar.repo
